@@ -1,10 +1,11 @@
 # merkle-tools
 
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-[![npm](https://img.shields.io/npm/l/merkle-tools.svg)](https://www.npmjs.com/package/merkle-tools)
-[![npm](https://img.shields.io/npm/v/merkle-tools.svg)](https://www.npmjs.com/package/merkle-tools)
+[![npm](https://img.shields.io/npm/l/merkle-tools.svg)](https://www.npmjs.com/package/@vitanick/merkle-tools)
+[![npm](https://img.shields.io/npm/v/merkle-tools.svg)](https://www.npmjs.com/package/@vitanick/merkle-tools)
 
 Tools for creating Merkle trees, generating merkle proofs, and verification of merkle proofs.
+A fork of [Merkle-tools](https://github.com/Tierion/merkle-tools)
 
 ## Installation
 
@@ -213,4 +214,3 @@ merkleTools.resetTree() // use this when done with this tree and you intend on c
           /     \        /     \        \
          /       \      /       \        \
         A         B    C         D        E
-

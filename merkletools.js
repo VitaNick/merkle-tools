@@ -249,4 +249,4 @@ var MerkleTools = function (treeOptions) {
   }
 }
 
-module.exports = MerkleTools
+module.exports.default = MerkleTools
